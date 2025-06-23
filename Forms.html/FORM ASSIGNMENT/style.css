@@ -1,0 +1,80 @@
+body{
+    background-image: url(images/ll1.jpg);
+}
+
+
+label{
+    color: whitesmoke ;
+    margin-top: 10px;
+}
+
+
+form{
+     display:flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 45px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    padding: 55px;
+    background: rgba(153, 148, 148, 0.226);
+
+
+}
+ 
+
+form h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+ }
+
+.underline-input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    padding: 8px;
+    width:100%;
+    outline: none;
+    color: rgb(177, 240, 4);
+ }
+
+
+
+ .formoptions{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-left: 45px;
+ }
+
+ .formoptions label{
+    font-weight: bold;
+ }
+
+
+ button{
+    background-color: whitesmoke;
+    width: 250px;
+    height: 40px;
+    border: 5px;
+    border-radius: 15px;
+    margin-left: 70px;
+    color: black;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+
+ }
+
+ .underline-input{
+    color: goldenrod;
+}
